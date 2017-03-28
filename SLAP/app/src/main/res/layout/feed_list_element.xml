@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="25dp">
+
+    <ImageView
+        android:id="@+id/feedProfileImage"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/user1"/>
+
+    <TextView
+        android:id="@+id/feedUserNameTV"
+        android:layout_toRightOf="@id/feedProfileImage"
+        android:layout_width="match_parent"
+        android:paddingLeft="20dp"
+        android:paddingTop="15dp"
+        android:layout_height="40dp"
+        android:textSize="18sp"
+        android:text="Greg James"/>
+
+    <TextView
+        android:id="@+id/feedListItemTV"
+        android:layout_below="@id/feedProfileImage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="15sp"
+        android:textSize="25sp"
+        android:textColor="#000000"
+        android:gravity="center_vertical"
+        android:alpha=".87"
+        android:text="Party Tonight"/>
+
+</RelativeLayout>
